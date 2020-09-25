@@ -75,12 +75,13 @@ class MyApp extends StatelessWidget {
                 margin: EdgeInsets.symmetric(vertical: 10, horizontal: 25),
                 child: Linkable(
                     text:
-                        "          You can find us here:\n          https://www.peachbasket.com         \n          or you can email us here:\n          Info@LAPeachBasket.com"),
+                        "          You can find us here:\n          https://www.peach-basket.net         \n          or you can email us here:\n          Info@LAPeachBasket.com"),
               ),
             ],
           ),
         ),
       ),
+      debugShowCheckedModeBanner: false,
     );
   }
 }
